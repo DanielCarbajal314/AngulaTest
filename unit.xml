@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 90.0.4430 (Windows 10.0.0)" package="unit" timestamp="2021-04-25T00:26:57" id="0" hostname="DESKTOP-KA8EDBA" tests="4" errors="0" failures="2" time="10.11">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/90.0.4430.85 Safari/537.36"/>
+  </properties>
+  <testcase name="StocksData search is made on by clicking on search button and no results found" time="0.047" classname=".StocksData"/>
+  <testcase name="StocksData Initial UI is rendered as expected" time="0.007" classname=".StocksData"/>
+  <testcase name="StocksData search is made on by clicking on search button and result found - test 1" time="5.032" classname=".StocksData">
+    <failure type="">Error: Expected null to be truthy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/stockData/stockData.component.spec.ts:112:21
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="StocksData search is made on by clicking on search button and result found - test 2" time="5.024" classname=".StocksData">
+    <failure type="">Error: Expected null to be truthy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/stockData/stockData.component.spec.ts:148:21
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Timeout - Async function did not complete within 5000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[HeadlessChrome 90.0.4430 (Windows 10.0.0) ERROR: 'Unhandled Promise rejection:', 'Cannot read property 'childNodes' of null', '; Zone:', 'ProxyZone', '; Task:', 'Promise.then', '; Value:', TypeError: Cannot read property 'childNodes' of null
+TypeError: Cannot read property 'childNodes' of null
+    at http://localhost:9876/_karma_webpack_/src/app/stockData/stockData.component.spec.ts:114:20
+    at Generator.next (<anonymous>)
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1), 'TypeError: Cannot read property 'childNodes' of null
+    at http://localhost:9876/_karma_webpack_/src/app/stockData/stockData.component.spec.ts:114:20
+    at Generator.next (<anonymous>)
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) ERROR: 'Unhandled Promise rejection:', 'Cannot read property 'childNodes' of null', '; Zone:', 'ProxyZone', '; Task:', 'Promise.then', '; Value:', TypeError: Cannot read property 'childNodes' of null
+TypeError: Cannot read property 'childNodes' of null
+    at http://localhost:9876/_karma_webpack_/src/app/stockData/stockData.component.spec.ts:149:20
+    at Generator.next (<anonymous>)
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1), 'TypeError: Cannot read property 'childNodes' of null
+    at http://localhost:9876/_karma_webpack_/src/app/stockData/stockData.component.spec.ts:149:20
+    at Generator.next (<anonymous>)
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
